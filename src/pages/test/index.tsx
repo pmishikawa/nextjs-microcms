@@ -6,6 +6,10 @@ import type {
 
 type Props = InferGetServerSidePropsType<typeof getServerSideProps>;
 
+export const config = {
+  runtime: "experimental-edge",
+};
+
 type Todo = {
   userId: number;
   id: number;
