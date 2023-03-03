@@ -25,8 +25,12 @@ type Props = {
 export default function Post(): JSX.Element {
   //export default function Post(props: Props): JSX.Element {
 
-  const { isLoading, error, data } = useQuery<boolean, Error, Props>(['posts'], () =>
-    client.get({ endpoint: 'posts', queries: { limit: 5, offset: 0 } }),
+  const { isLoading, error, data } = useQuery<boolean, Error, Props>(
+    ['posts'],
+    () => client.get({ endpoint: 'posts', queries: { limit: 5, offset: 0 } }),
+    {
+      staleTime: Infinity,
+    },
   )
 
   if (error || !data) return <p>An error has occurred</p>

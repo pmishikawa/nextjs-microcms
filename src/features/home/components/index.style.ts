@@ -35,6 +35,8 @@ const visual = css`
 `
 
 const title = css`
+  color: #aa00ff;
+  font-weiht: 700;
   margin: 80px;
 `
 
