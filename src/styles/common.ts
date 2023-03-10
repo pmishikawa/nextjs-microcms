@@ -9,38 +9,24 @@ const common = css`
   }
 
   h2 {
-    width: fit-content;
-    padding-bottom: 10px;
-    margin-bottom: -10px;
     font-family: 'M PLUS 1p', sans-serif;
-    ${fontSize(30)}
     font-style: normal;
     font-weight: 500;
+    height: auto;
+    margin-bottom: -10px;
     line-height: 100%;
-    background: linear-gradient(97.61deg, #29c0ff 13.66%, #1e73be 101.36%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+    width: fit-content;
 
     span {
-      width: -webkit-fit-content;
-      width: -moz-fit-content;
-      width: fit-content;
-      padding-bottom: 10px;
-      margin-bottom: -10px;
-      ${fontSize(80)}
+      ${fontSize(30)}
       font-style: normal;
       font-weight: 500;
       line-height: 100%;
-      background: linear-gradient(97.61deg, #29c0ff 13.66%, #1e73be 101.36%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-fill-color: transparent;
+      padding-bottom: 10px;
+      margin-bottom: -10px;
     }
+    ${fontSize(80)}
   }
 
   h3 {
@@ -54,6 +40,7 @@ const common = css`
 
     &.is-hover {
       transition: all 0.2s;
+
       img,
       span {
         opacity: 0.75;

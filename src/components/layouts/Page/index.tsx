@@ -32,7 +32,6 @@ const Page: NextPage<Props> = (props) => {
       <GlobalStyle />
       <HeadInfo siteTitle={props.title} pageBaseUrl={origin} pagePath={asPath} />
       <SiteHeader />
-
       <Body>{props.children}</Body>
       <SiteFooter />
       <ScrollTop />

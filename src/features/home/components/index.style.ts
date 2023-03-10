@@ -3,13 +3,7 @@ import { minMq } from '@/styles/breakPoints'
 import variables from '@/styles/variables'
 
 const mainSection = css`
-  height: 100vh;
-  margin-left: auto;
-  margin-right: auto;
   position: relative;
-  position: relative;
-  width: 100%;
-
   ${minMq('MD')} {
     position: relative;
   }
@@ -18,25 +12,13 @@ const mainSection = css`
 const messgeSectin = css``
 
 const visual = css`
-  border: none;
-  box-sizing: border-box;
-  display: block;
-  height: 0px;
-  inset: 0px;
-  margin: auto;
-  max-height: 100%;
-  max-width: 100%;
-  min-height: 100%;
-  min-width: 100%;
-  object-fit: cover;
-  padding: 0px;
-  position: absolute;
-  width: 0px;
+  height: auto;
+  width: 100%;
 `
 
 const title = css`
   color: #aa00ff;
-  font-weiht: 700;
+  font-weight: 700;
   margin: 80px;
 `
 
@@ -56,6 +38,7 @@ const button = css`
   background-color: ${variables.SUB_C};
   border-radius: 2px;
   color: ${variables.BASE_BGC};
+
   display: block;
   margin-left: auto;
   margin-right: auto;

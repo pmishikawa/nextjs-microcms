@@ -12,11 +12,7 @@ export default function Home(): JSX.Element {
     <Page title={pageTitle}>
       <Content>
         <section css={style.mainSection}>
-          <img
-            src={`${BASE_PATH}/home/img/background.jpg`}
-            alt="プレスメディア"
-            css={style.visual}
-          />
+          <img src={`${BASE_PATH}/home/img/top.jpg`} alt="プレスメディア" css={style.visual} />
         </section>
         <Section>
           <section css={style.mainSection}>
@@ -24,7 +20,7 @@ export default function Home(): JSX.Element {
 
             <div>
               <H>
-                メッセージ<span>Message</span>
+                <span>Business</span>事業案内
               </H>
               <p>
                 ビデオを使うと、伝えたい内容を明確に表現できます。[オンライン ビデオ]
