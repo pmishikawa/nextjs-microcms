@@ -1,9 +1,18 @@
+import { useEffect } from 'react'
 import Link from 'next/link'
 import { useToggle } from 'react-use'
 import { style } from './index.style'
 
 export function Navigation(): JSX.Element {
   const [on, toggle] = useToggle(false)
+
+  useEffect(() => {
+    if (on) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
+  })
 
   return (
     <div css={style.wrapMenu}>

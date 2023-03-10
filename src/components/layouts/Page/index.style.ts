@@ -7,6 +7,7 @@ export const page = css`
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   display: flex;
   flex-flow: column;
+  flex-flow: column;
   font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
   ${fontSize(14)}
 

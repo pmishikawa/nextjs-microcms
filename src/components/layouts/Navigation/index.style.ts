@@ -68,7 +68,12 @@ const nav = css`
   }
 
   &::before {
-    background: linear-gradient(240deg, #ffffff, #ffffff 50%, rgba(255, 255, 255, 0) 65%);
+    background: linear-gradient(
+      240deg,
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0.85) 50%,
+      rgba(255, 255, 255, 0) 65%
+    );
     content: '';
     display: block;
     left: auto;
