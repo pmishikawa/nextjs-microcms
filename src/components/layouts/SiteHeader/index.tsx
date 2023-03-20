@@ -1,32 +1,9 @@
-import Link from 'next/link'
-import { useRouter } from 'next/router'
 import { Navigation } from '@/components/layouts/Navigation'
-import { H } from '@/components/layouts/Heading/H'
-import { BASE_PATH } from '@/config'
 import { style } from './index.style'
 
 const SiteHeader = (): JSX.Element => {
-  const router = useRouter()
-
-  const Top = (): JSX.Element => {
-    return (
-      <H>
-        <img src={`${BASE_PATH}/common/logo.png`} alt="プレスメディア" />
-      </H>
-    )
-  }
-
-  const PageLogo = (): JSX.Element => {
-    return (
-      <Link href="/">
-        <img src={`${BASE_PATH}/common/logo.png`} alt="プレスメディア" />
-      </Link>
-    )
-  }
-
   return (
     <header css={style.siteHeader} id="site_header">
-      <div css={style.siteTitle}>{router.pathname === '/' ? <Top /> : <PageLogo />}</div>
       <Navigation />
     </header>
   )

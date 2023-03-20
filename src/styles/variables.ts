@@ -8,7 +8,7 @@ const variables = {
   SKY_BLUE: '#e5f3ff',
   ALICE_BLUE: '#f1f6fb',
   PINK: '#e3556a',
-  BASE_BGC: '#fef6e5',
+  BASE_BGC: '#FAFAFA',
   SUB_BGC: '#f2f2f2',
   BASE_BDC: '#4d311c',
   SUB_BDC: '#c4c4c4',
@@ -31,7 +31,7 @@ const variables = {
   // ボタンの色
   BTN_BGC: '#fef6e5',
   //$btn_hvc: lighten($theme_c, 15%);
-  BTN_TXC: '#4d311c',
+  BTN_TXC: '#333333',
 
   // カレンダーUIの色
   CAL_BGC: '#fff',

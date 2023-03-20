@@ -3,23 +3,36 @@ import { minMq } from '@/styles/breakPoints'
 import variables from '@/styles/variables'
 
 const mainSection = css`
-  position: relative;
+  margin-top: 50px;
+
   ${minMq('MD')} {
-    position: relative;
+    margin-top: 80px;
   }
 `
-
-const messgeSectin = css``
 
 const visual = css`
   height: auto;
   width: 100%;
 `
 
-const title = css`
-  color: #aa00ff;
-  font-weight: 700;
-  margin: 80px;
+const text = css`
+  line-height: 1.8;
+  margin-top: 15px;
+  text-align: justify;
+
+  ${minMq('MD')} {
+    margin-top: 30px;
+  }
+`
+
+const list = css`
+  line-height: 1.8;
+  margin-top: 15px;
+  text-align: justify;
+
+  ${minMq('MD')} {
+    margin-top: 30px;
+  }
 `
 
 const input = css`
@@ -51,9 +64,9 @@ const button = css`
 
 export const style = {
   mainSection,
-  messgeSectin,
   visual,
-  title,
+  text,
+  list,
   input,
   button,
 }

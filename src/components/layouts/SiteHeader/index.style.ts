@@ -7,7 +7,7 @@ const siteHeader = css`
   background-color: ${variables.WHITE};
   display: flex;
   height: ${variables.HEADER_H_SP};
-  justify-content: space-between;
+  justify-content: flex-end;
   left: 0;
   padding: calc(${variables.UNIT} * 2);
   position: fixed;

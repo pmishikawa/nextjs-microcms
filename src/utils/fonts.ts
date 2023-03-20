@@ -8,8 +8,8 @@ const fonts = [
   // DotGothic16
   'https://fonts.googleapis.com/css2?family=DotGothic16&display=swap',
 
-  // Kaisei HarunoUmi
-  'https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&',
+  // Sawarabi Gothic
+  'https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap',
 ]
 
 export default fonts

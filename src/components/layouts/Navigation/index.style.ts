@@ -167,7 +167,7 @@ const menu = css`
 `
 
 const bar = css`
-  background-color: ${variables.SUB_C};
+  background-color: ${variables.BASE_TXC};
   border-radius: 1px;
   display: block;
   height: 2px;
@@ -182,7 +182,7 @@ const bar = css`
     top: 0;
   }
   &:nth-child(2) {
-    top: 10;
+    top: 11px;
   }
 
   &:nth-child(3) {
@@ -193,7 +193,7 @@ const bar = css`
 const open = css`
   span {
     &:nth-child(1) {
-      background-color: ${variables.THEME_C};
+      background-color: ${variables.BASE_TXC};
       right: -3px;
       top: 11px;
       transform: rotate(-45deg);
@@ -205,7 +205,7 @@ const open = css`
     }
 
     &:nth-child(3) {
-      background-color: ${variables.THEME_C};
+      background-color: ${variables.BASE_TXC};
       bottom: 11px;
       right: -3px;
       transform: rotate(45deg);

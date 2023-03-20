@@ -9,7 +9,7 @@ const common = css`
   }
 
   h2 {
-    font-family: 'M PLUS 1p', sans-serif;
+    font-family: 'Sawarabi Gothic', sans-serif;
     font-style: normal;
     font-weight: 500;
     height: auto;
@@ -26,12 +26,15 @@ const common = css`
       padding-bottom: 10px;
       margin-bottom: -10px;
     }
-    ${fontSize(80)}
   }
 
   h3 {
     color: ${variables.BASE_BDC};
     font-weight: 700;
+  }
+
+  p {
+    color: ${variables.BASE_TXC};
   }
 
   a {
